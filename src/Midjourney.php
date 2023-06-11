@@ -7,25 +7,25 @@ use GuzzleHttp\Client;
 
 class Midjourney {
 
-    private const API_URL = 'https://discord.com/api/v9';
+    protected const API_URL = 'https://discord.com/api/v9';
 
-    private const APPLICATION_ID = '936929561302675456';
+    protected const APPLICATION_ID = '936929561302675456';
 
-    private const DATA_ID = '938956540159881230';
+    protected const DATA_ID = '938956540159881230';
 
-    private const DATA_VERSION = '1077969938624553050';
+    protected const DATA_VERSION = '1077969938624553050';
 
-    private const SESSION_ID = '2fb980f65e5c9a77c96ca01f2c242cf6';
+    protected const SESSION_ID = '2fb980f65e5c9a77c96ca01f2c242cf6';
 
     protected static $client;
 
-    private static $channel_id;
+    protected static $channel_id;
 
-    private static $oauth_token;
+    protected static $oauth_token;
 
-    private static $guild_id;
+    protected static $guild_id;
 
-    private static $user_id;
+    protected static $user_id;
 
     public function __construct($channel_id, $oauth_token)
     {
