@@ -17,7 +17,7 @@ class Midjourney {
 
     private const SESSION_ID = '2fb980f65e5c9a77c96ca01f2c242cf6';
 
-    private static $client;
+    protected static $client;
 
     private static $channel_id;
 
