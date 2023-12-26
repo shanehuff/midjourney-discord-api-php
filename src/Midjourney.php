@@ -133,7 +133,7 @@ class Midjourney {
             return (
                 str_starts_with($item->content, "**{$prompt}** - <@" . self::$user_id . '>') and
                 ! str_contains($item->content, '%') and
-                str_ends_with($item->content, '(fast)')
+                str_ends_with($item->content, '(fast, stealth)')
             );
         });
 
