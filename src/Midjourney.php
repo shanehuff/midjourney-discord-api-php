@@ -13,7 +13,7 @@ class Midjourney {
 
     protected const DATA_ID = '938956540159881230';
 
-    protected const DATA_VERSION = '1077969938624553050';
+    protected const DATA_VERSION = '1166847114203123795';
 
     protected const SESSION_ID = '2fb980f65e5c9a77c96ca01f2c242cf6';
 
@@ -88,8 +88,7 @@ class Midjourney {
                     'id' => self::DATA_ID,
                     'application_id' => self::APPLICATION_ID,
                     'version' => self::DATA_VERSION,
-                    'default_permission' => true,
-                    'default_member_permissions' => '',
+                    'default_member_permissions' => null,
                     'type' => 1,
                     'nsfw' => false,
                     'name' => 'imagine',
