@@ -220,7 +220,7 @@ class Midjourney {
 
         if (is_null($message))
         {
-            $message = self::firstWhere($response, 'content', "**{$prompt}** - Upscaled by <@" . self::$user_id . '> (fast)');
+            $message = self::firstWhere($response, 'content', "**{$prompt}** - Upscaled by <@" . self::$user_id . '> (fast, stealth)');
         }
 
         if (is_null($message)) return null;
